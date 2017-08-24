@@ -1,0 +1,31 @@
+<page-top></page-top>
+<split direction="horizontal">
+    <split-area [size]="80">
+        <div id="map" style="    height: 100%;"></div>
+    </split-area>
+    <split-area [size]="20">
+        <div class="panel-label" *ngIf="selectedMarkers.length < 2 && selectedMarkers.length != 1">
+            Выберите 2 точки на карте
+        </div>
+         <div class="panel-label" *ngIf="selectedMarkers.length == 1">
+            Выберите еще одну точку
+        </div>
+        <div class="panel-label" *ngIf="selectedMarkers.length == 2">
+            <button (click)="refresh()" class="report-input">Сбросить</button>
+        </div>
+        
+        <div class="panel-block" *ngFor="let marker of selectedMarkers; let i = index">
+            <label class="report-input-label">Город {{i+1}}</label>
+            <p>{{marker.options.title}}</p>
+            <!--<input class="report-input" [(ngModel)]="data.name" >-->
+        </div>
+         <div class="panel-label"  *ngIf="selectedMarkers.length == 2 && distance == ''">
+            <button (click)="checkDistance()" class="report-input">Узнать растояние</button>
+        </div>
+        <div class="panel-block" *ngIf="distance != ''">
+            <label class="report-input-label">Растояние между городами</label>
+            <p>{{distance}}</p>
+            <!--<input class="report-input" [(ngModel)]="data.name" >-->
+        </div>
+    </split-area>
+</split>

@@ -1,0 +1,371 @@
+@font-face {
+  font-family: 'forticon';
+  src:  url('fonts/forticon.eot?p3rliu');
+  src:  url('fonts/forticon.eot?p3rliu#iefix') format('embedded-opentype'),
+    url('fonts/forticon.ttf?p3rliu') format('truetype'),
+    url('fonts/forticon.woff?p3rliu') format('woff'),
+    url('fonts/forticon.svg?p3rliu#forticon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: "Roboto Regular";
+    src: url("RobotoRegular/RobotoRegular.eot");
+    src: url("RobotoRegular/RobotoRegular.eot?#iefix")format("embedded-opentype"),
+    url("RobotoRegular/RobotoRegular.woff") format("woff"),
+    url("RobotoRegular/RobotoRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "RobotoLight"; */
+@font-face {
+    font-family: "Roboto Light";
+    src: url("RobotoLight/RobotoLight.eot");
+    src: url("RobotoLight/RobotoLight.eot?#iefix")format("embedded-opentype"),
+    url("RobotoLight/RobotoLight.woff") format("woff"),
+    url("RobotoLight/RobotoLight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "RobotoMedium"; */
+@font-face {
+    font-family: "Roboto Medium";
+    src: url("./RobotoMedium/RobotoMedium.eot");
+    src: url("./RobotoMedium/RobotoMedium.eot?#iefix")format("embedded-opentype"),
+    url("./RobotoMedium/RobotoMedium.woff") format("woff"),
+    url("./RobotoMedium/RobotoMedium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "RobotoBold"; */
+@font-face {
+    font-family: "Roboto Bold";
+    src: url("./RobotoBold/RobotoBold.eot");
+    src: url("./RobotoBold/RobotoBold.eot?#iefix")format("embedded-opentype"),
+    url("./RobotoBold/RobotoBold.woff") format("woff"),
+    url("./RobotoBold/RobotoBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'forticon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-1:before {
+  content: "\e900";
+}
+.icon-2:before {
+  content: "\e901";
+}
+.icon-3:before {
+  content: "\e902";
+}
+.icon-4:before {
+  content: "\e903";
+}
+.icon-5:before {
+  content: "\e904";
+}
+.icon-6:before {
+  content: "\e905";
+}
+.icon-7:before {
+  content: "\e906";
+}
+.icon-8:before {
+  content: "\e907";
+}
+.icon-9:before {
+  content: "\e908";
+}
+.icon-10:before {
+  content: "\e909";
+}
+.icon-11:before {
+  content: "\e90a";
+}
+.icon-12:before {
+  content: "\e90b";
+}
+.icon-13:before {
+  content: "\e90c";
+}
+.icon-14:before {
+  content: "\e90d";
+}
+.icon-15:before {
+  content: "\e90e";
+}
+.icon-16:before {
+  content: "\e90f";
+}
+.icon-92:before {
+  content: "\e910";
+}
+.icon-18:before {
+  content: "\e911";
+}
+.icon-19:before {
+  content: "\e912";
+}
+.icon-20:before {
+  content: "\e913";
+}
+.icon-21:before {
+  content: "\e914";
+}
+.icon-22:before {
+  content: "\e915";
+}
+.icon-23:before {
+  content: "\e916";
+}
+.icon-24:before {
+  content: "\e917";
+}
+.icon-25:before {
+  content: "\e918";
+}
+.icon-26:before {
+  content: "\e919";
+}
+.icon-27:before {
+  content: "\e91a";
+}
+.icon-28:before {
+  content: "\e91b";
+}
+.icon-29:before {
+  content: "\e91c";
+}
+.icon-30:before {
+  content: "\e91d";
+}
+.icon-31:before {
+  content: "\e91e";
+}
+.icon-32:before {
+  content: "\e91f";
+}
+.icon-33:before {
+  content: "\e920";
+}
+.icon-34:before {
+  content: "\e921";
+}
+.icon-35:before {
+  content: "\e922";
+}
+.icon-36:before {
+  content: "\e923";
+}
+.icon-37:before {
+  content: "\e924";
+}
+.icon-38:before {
+  content: "\e925";
+}
+.icon-39:before {
+  content: "\e926";
+}
+.icon-40:before {
+  content: "\e927";
+}
+.icon-41:before {
+  content: "\e928";
+}
+.icon-42:before {
+  content: "\e929";
+}
+.icon-43:before {
+  content: "\e92a";
+}
+.icon-44:before {
+  content: "\e92b";
+}
+.icon-45:before {
+  content: "\e92c";
+}
+.icon-46:before {
+  content: "\e92d";
+}
+.icon-47:before {
+  content: "\e92e";
+}
+.icon-48:before {
+  content: "\e92f";
+}
+.icon-49:before {
+  content: "\e930";
+}
+.icon-50:before {
+  content: "\e931";
+}
+.icon-51:before {
+  content: "\e932";
+}
+.icon-52:before {
+  content: "\e933";
+}
+.icon-53:before {
+  content: "\e934";
+}
+.icon-54:before {
+  content: "\e935";
+}
+.icon-55:before {
+  content: "\e936";
+}
+.icon-56:before {
+  content: "\e937";
+}
+.icon-57:before {
+  content: "\e938";
+}
+.icon-58:before {
+  content: "\e939";
+}
+.icon-59:before {
+  content: "\e93a";
+}
+.icon-60:before {
+  content: "\e93b";
+}
+.icon-61:before {
+  content: "\e93c";
+}
+.icon-62:before {
+  content: "\e93d";
+}
+.icon-63:before {
+  content: "\e93e";
+}
+.icon-64:before {
+  content: "\e93f";
+}
+.icon-65:before {
+  content: "\e940";
+}
+.icon-66:before {
+  content: "\e941";
+}
+.icon-67:before {
+  content: "\e942";
+}
+.icon-68:before {
+  content: "\e943";
+}
+.icon-69:before {
+  content: "\e944";
+}
+.icon-70:before {
+  content: "\e945";
+}
+.icon-71:before {
+  content: "\e946";
+}
+.icon-72:before {
+  content: "\e947";
+}
+.icon-blue_sqr:before {
+  content: "\e948";
+}
+.icon-color:before {
+  content: "\e949";
+}
+.icon-grey_sqr:before {
+  content: "\e94a";
+}
+.icon-red_sqr:before {
+  content: "\e94b";
+}
+.icon-yellow_sqr:before {
+  content: "\e94c";
+}
+.icon-01:before {
+  content: "\e94d";
+}
+.icon-74:before {
+  content: "\e94e";
+}
+.icon-75:before {
+  content: "\e94f";
+}
+.icon-arrow:before {
+  content: "\e950";
+}
+.icon-arrow-left:before {
+  content: "\e951";
+}
+.icon-arrow-right:before {
+  content: "\e952";
+}
+.icon-columns:before {
+  content: "\e953";
+}
+.icon-mapwork---address:before {
+  content: "\e954";
+}
+.icon-mapwork---glass:before {
+  content: "\e955";
+}
+.icon-mapwork---glass+:before {
+  content: "\e956";
+}
+.icon-mapwork---map:before {
+  content: "\e957";
+}
+.icon-ruler:before {
+  content: "\e958";
+}
+.icon-search-address:before {
+  content: "\e959";
+}
+.icon-sort:before {
+  content: "\e95a";
+}
+.icon-Time:before {
+  content: "\e95b";
+}
+.icon-Starter:before {
+  content: "\e95c";
+}
+.icon-Speed:before {
+  content: "\e95d";
+}
+.icon-GPS:before {
+  content: "\e95e";
+}
+.icon-Address:before {
+  content: "\e95f";
+}
+.icon-arrow-top:before {
+  content: "\e960";
+}
+.icon_data {
+       content: '';
+    display: block;
+    height: 25px;
+    width: 25px;
+    align-items: center;
+    /* line-height: 1px; */
+    display: flex;
+    justify-content: center;
+    background-size: contain;
+    /* background-position-x: 53px; */
+    background-repeat: no-repeat;
+   background: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='iso-8859-1'%3F%3E%3C!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0%29 --%3E%3Csvg version='1.1' id='Capa_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 14.976 14.976' style='enable-background:new 0 0 14.976 14.976;' xml:space='preserve'%3E%3Cg%3E%3Cpath style='fill:%23030104;' d='M13.834,3.396c0-0.247-0.068-0.499-0.205-0.748l-0.016-0.029c0.04-0.111,0.068-0.225,0.068-0.345 C13.681,0.796,10.49,0,7.489,0C4.485,0,1.295,0.797,1.295,2.274c0,0.12,0.028,0.234,0.069,0.346L1.348,2.648 c-0.137,0.25-0.206,0.501-0.206,0.748v1.828c0,0.281,0.089,0.551,0.246,0.807l-0.02,0.035c-0.15,0.26-0.226,0.522-0.226,0.783 v1.827c0,0.273,0.085,0.535,0.232,0.783L1.367,9.471c-0.15,0.26-0.226,0.521-0.226,0.781v1.828c0,1.623,2.788,2.896,6.346,2.896 c3.56,0,6.346-1.273,6.346-2.896v-1.828c0-0.26-0.075-0.523-0.227-0.783l-0.006-0.01c0.148-0.248,0.232-0.51,0.232-0.783V6.849 c0-0.261-0.075-0.524-0.227-0.784l-0.02-0.033c0.157-0.256,0.246-0.526,0.246-0.808V3.396H13.834z M13.155,8.676 c0,1.049-2.327,2.217-5.667,2.217S1.821,9.725,1.821,8.676V6.957c1.042,0.955,3.186,1.565,5.667,1.565s4.625-0.61,5.667-1.565 V8.676z M13.155,5.224c0,1.049-2.327,2.216-5.667,2.216S1.821,6.273,1.821,5.224V3.703C2.84,4.566,5.2,5.014,7.488,5.014 s4.647-0.447,5.667-1.311V5.224z M13.155,12.08c0,1.049-2.327,2.217-5.667,2.217s-5.667-1.168-5.667-2.217v-1.719 c1.042,0.953,3.186,1.563,5.667,1.563s4.625-0.609,5.667-1.563V12.08z'/%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3C/svg%3E%0A");
+}

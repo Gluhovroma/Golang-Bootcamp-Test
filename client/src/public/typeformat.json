@@ -1,0 +1,85 @@
+{
+"status":"success",
+"data":[
+    {
+        "id": 0,
+        "type": "number",
+        "name": "0",
+        "format":"0"                     
+    },
+    {
+        "id": 1,
+        "type": "number",
+        "name": "0.0",
+        "format":"0.0"                     
+    },
+    {
+        "id": 2,
+        "type": "number",
+        "name": "0.00",
+        "format":"0.00"                     
+    },
+    {
+        "id": 3,
+        "type": "number",
+        "name": "0.000",
+        "format":"0.000"                     
+    },    
+    {
+        "id": 4,
+        "type": "timespan",
+        "name": "чч:мм:сс",
+        "format":"чч:мм:сс"                     
+    },
+    {
+        "id": 5,        
+        "type": "timespan",
+        "name": "чч:мм",
+        "format":"чч:мм"                     
+    },
+     {
+        "id": 6,
+        "type": "timespan",
+        "name": "чч.ч",
+        "format":"чч.ч"                     
+    },
+    {
+        "id": 7,
+        "type": "datetime",
+        "name":"дд.ММ.гггг чч:мм:сс",
+        "format": "DD.MM.YYYY hh:mm.ss"                  
+    },
+    {
+        "id": 8,
+        "type": "datetime",
+        "name":"дд.ММ.гггг",
+        "format":"DD.MM.YYYY hh:mm.ss"                     
+    },
+    {
+        "id": 9,
+        "type": "datetime",
+        "name":"дд.ММ",
+        "format":"DD.MM.YYYY hh:mm.ss"                     
+    },
+    {
+        "id": 10,
+        "type": "datetime",
+        "name":"ММ.гггг",
+        "format":"DD.MM.YYYY hh:mm.ss"                     
+    },
+    {
+        "id": 11,
+        "type": "datetime",
+        "name":"чч:мм:сс",
+        "format":"DD.MM.YYYY hh:mm.ss"                     
+    },
+    {
+        "id": 12,
+        "type": "datetime",
+        "name":"чч:мм:сс",
+        "format":"DD.MM.YYYY hh:mm.ss"                     
+    }
+    
+],
+"message":null
+}
